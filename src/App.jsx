@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-
+import Fragments from "./Fragments";
 import './App.css';
 
 // ---------- App: the top-level component ----------
@@ -39,6 +39,7 @@ function App() {
 
       <h3>Example: Page contains Header, Course and Footer</h3>
       <Page />
+      <Fragments />
     </div>
   );
 }
