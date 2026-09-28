@@ -1,16 +1,28 @@
-# React + Vite
+# React Practice 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Disclaimer:** My laptop has officially died, but my curiosity has not.
+> So here I am, surviving on a low-configuration setup, a browser tab and pure determination.
+> This repo is the only thing standing between my hard-worked practice notes and the void
+> (yes, I lost practice files once after ghosting my sandbox for a month,that's why this repo exists.Trauma-driven development. 😌... *stares into the distance*).
 
-Currently, two official plugins are available:
+## How this repo works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I practice React the moment I learn a new concept, while it's still fresh in my brain
+and hasn't been replaced by something else. Each topic gets its own file, each file gets its own commit.
+So if you see a commit called "Add fragments practice", yes, I really did just learn fragments.
 
-## React Compiler
+## What's inside
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| File | Topic |
+|------|-------|
+| `src/App.jsx` | Components, the App() root component and JSX rules |
+| `src/Fragments.jsx` | Fragments (`<>...</>`) |
 
-## Expanding the Oxlint configuration
+More files coming as I learn more. Bless this repo. 🙏
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Run it
+
+    npm install
+    npm run dev
+
+*Built with Codespaces, caffeine and mild stubbornness.*
